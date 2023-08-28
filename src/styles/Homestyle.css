@@ -1,0 +1,160 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Vazirmatn:wght@900&display=swap');
+
+/* Apply styles to .img-container */
+.img-container {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  height: 70vh;
+  width: 100%;
+  background: url('/public/job1.jpg') no-repeat center center;
+  background-size: cover;
+  position: relative; /* Required for absolute positioning */
+  transition: filter 0.3s; /* Apply a transition effect to the filter property */
+  
+}
+
+
+/* Add a color overlay */
+.img-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.568); /* Semi-transparent black color */
+}
+
+/* Style for headers */
+.header {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  text-align: center;
+  color: rgb(255, 255, 255);
+  z-index: 1; /* Ensure the header is above the overlay */
+  transition: color 0.3s; /* Apply a transition effect to the color property */
+  font-size: 40px;
+}
+
+
+/* Style for sub-header */
+.sub-header {
+
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  text-align: center;
+  color: rgb(213, 213, 213);
+  z-index: 1; /* Ensure the sub-header is above the overlay */
+  transition: color 0.3s; /* Apply a transition effect to the color property */
+  font-size: 25px;
+}
+
+
+
+/* Modify color on hover */
+
+
+
+/* Homestyle.css */
+/* Homestyle.css */
+.search-button {
+  background-color: #ffffff; /* Change to your desired button color */
+  color: #370d67; /* Change to your desired text color */
+  padding: 20px 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  position: relative; /* Add this to enable z-index */
+  z-index: 2; /* Adjust the z-index value to bring the button to the front */
+  position: absolute;
+  top:50%;
+  transform: translate(-50%,-50%);
+  font-family: 'Montserrat', sans-serif;
+  transition: 0.2s;
+  font-weight: 600;
+  
+
+}
+
+.arrow-icon {
+  margin-left: 5px;
+}
+
+
+.search-button:hover {
+background-color: transparent;
+color: white;
+font-size: 22px;
+
+}
+
+
+.getstarted{
+  position: relative;
+  top:70vh;
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  background-color: aliceblue;
+
+
+}
+
+.getstarted div{
+  flex:1;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  
+  
+}
+
+.getstarted .imagepart{
+  height: 70vh;
+}
+
+.getstarted img{
+  max-height: 80%;
+  max-width: 80%;
+  box-shadow:  0 0 10px rgba(190, 190, 190, 0.686);
+
+}
+
+
+
+.getstarted button{
+  border:none;
+  padding: 12px 16px 12px 16px;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 5px;
+  transition: 0.2s;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color:Black;
+  margin-top: 20px;
+  background-color: #a3a9e1;
+}
+
+.getstarted button:hover{
+  background-color: #6971ba;
+  color:white;
+  box-shadow: 0px 5px 10px rgb(221, 221, 221) ;
+}
+
+
+
+
+.getstarted p{
+  padding: 10px 50px 10px 50px;
+  font-size: 25px;
+}

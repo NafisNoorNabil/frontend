@@ -1,0 +1,54 @@
+/* src/App.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+.SApp-header{
+    background-color: #0e2d3a;
+    padding: 20px;
+    color: white;
+    height: 100vh;
+}
+  
+  .App-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+    height: 100vh;
+  }
+  
+  .login-button {
+    
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: "Poppins";
+    transition: 0.3s;
+  }
+  .login-button:hover {
+    background-color: rgb(33, 115, 202);
+
+  }
+  
+  .button-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    
+  }
+
+.pics{
+    display: flex;
+    margin-top: 40px;
+}
+
+.pics img{
+    max-width: 33%;
+    max-height: 50%;
+    
+}
